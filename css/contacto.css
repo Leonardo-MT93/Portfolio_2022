@@ -1,0 +1,53 @@
+
+.footer{
+    background-color: #1b263b;
+}
+.info__footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+.lista__datos{
+    display: flex;
+    flex-direction: column; 
+}
+.imagen__contacto{
+    width: 100px;
+    width: 300px;
+}
+.descripcion__formacion__contacto{
+    font-size: 1.5rem;
+}
+.texto__formulario{
+    font-size: 1.2rem;
+    padding: 0.7rem 0;
+}
+.input__texto{
+    padding: 1rem;
+}
+.posicion__boton{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.enviar__mensaje{
+    margin: 1rem;
+    width: 40%;
+    padding: 15px 0px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: #ffbf00;
+    border: none;
+    border-radius: 5px;
+}
+
+.footer__proyecto{
+    display: flex;
+    justify-content: center;
+    background-color: #0c0f0a;
+    font-size: 1.5rem;
+    color: #ffbf00;
+    padding: 1rem;
+}

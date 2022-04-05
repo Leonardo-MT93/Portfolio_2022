@@ -1,0 +1,14 @@
+.app{
+    color: #ffbf00;
+    background: #0c0f0a;
+}
+.content{
+    background: #1b263b;
+}
+.titulo__secundario{
+    display: flex;
+    justify-content: center;
+    font-size: 7rem;
+    padding: 6rem 0;
+    background-color: #0d1b2a;
+}

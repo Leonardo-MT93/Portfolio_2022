@@ -1,0 +1,49 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+    margin: 1rem 1.5rem;
+    
+}
+.header__principal{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #001524;
+    padding: 9.2rem 0rem;
+}
+.foto__perfil{
+    background-size: auto;
+    height: 600px ;
+}
+
+.lista__presentacion{
+    display: flex;
+    justify-content: space-evenly;
+}
+.presentacion__principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+    width: 750px;
+}
+.imagen__redes{
+    padding: 3rem 1rem;
+    width: 100px;
+}
+.titulo__principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #D4AF37; 
+}
+.links{
+    display: flex;
+    justify-content: space-evenly;
+}
+.link__navegacion{
+    padding: 1rem;
+    color: #D4AF37;
+}

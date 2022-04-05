@@ -1,0 +1,37 @@
+.total__experiencias{
+    display: flex;
+    flex-direction: column;
+}
+.lista__experiencias{
+    display: flex;
+    align-items: center;
+    padding-top: 1rem;
+    margin-left: 2rem;
+    justify-content: space-evenly;
+}
+.botones__experiencias{
+    display: flex;
+    justify-content: center;
+}
+.datos__experiencias{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+.titulo__terciario{
+    font-size: 2.5rem;
+    font-style: italic;
+    text-align: center;
+}
+.descripcion__experiencia{
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.imagen__experiencias{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    padding: 1rem;
+    height: 400px;
+}

@@ -1,0 +1,44 @@
+.lista__personal{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 8.8rem 0rem;
+}
+.items__personal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    height: auto;
+    margin: 1rem; 
+    padding: 1.5rem 1rem;
+    border-radius: 1rem;
+    border: 5px solid #d3d3d3;
+}
+.titulo__personal{
+    font-size: 1.5rem;
+    padding-bottom: 0.5rem;
+}
+.titulo__personal{
+    font-size: 1.5rem;
+    padding-bottom: 0.5rem;
+}
+.titulo__personal{
+    font-size: 1.5rem;
+    padding-bottom: 0.5rem;
+}
+.boton__web{
+    margin: 1rem;
+    width: 100px;
+    padding: 15px 0px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #f0efeb;
+    background-color: #ffb703;
+    border: none;
+    border-radius: 5px;
+}
+.no__boton{
+    padding: 1.5rem 0rem;
+    font-size: 2rem;
+}
