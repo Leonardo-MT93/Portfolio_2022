@@ -42,3 +42,15 @@
     padding: 1.5rem 0rem;
     font-size: 2rem;
 }
+@media screen and (max-width:480px){
+    .lista__personal{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 1rem 0rem;
+    }
+    .icono__personal{
+        width: 100px;
+        height: 100px;
+    }
+}

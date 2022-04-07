@@ -31,3 +31,26 @@
     width: 600px;
     font-size: 1.5rem;
 }
+@media screen and (max-width:480px){
+    .info__personal{
+        justify-content: center;
+        padding: 1rem;
+        width: 250px;
+    }
+    .imagen__perfil{
+        width: 0px;
+        height: 0px;
+    }
+    .presentacion{
+        padding-top: 1rem;
+    }
+    .parrafo__presentacion{
+        width: 300px;
+        font-size: 1rem;
+    }
+    .firma__presentacion{
+        width: 300px;
+        height: 100px;
+    }
+
+}

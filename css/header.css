@@ -2,8 +2,7 @@
     display: flex;
     justify-content: space-between;
     font-size: 2rem;
-    margin: 1rem 1.5rem;
-    
+    margin: 1rem 2.5rem;
 }
 .header__principal{
     display: flex;
@@ -46,4 +45,78 @@
 .link__navegacion{
     padding: 1rem;
     color: #D4AF37;
+}
+.nombre__principal{
+    display: flex;
+    justify-content: flex-start;
+    width: 400px;
+}
+.logo__leon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    padding: 1rem;
+}
+@media screen and (max-width:480px){
+    .header{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 1rem;
+    }
+    .nombre__principal{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        background: red;
+    }
+    .logo__leon{
+        padding: 1rem 0.5rem 1rem 0rem;
+    }
+    .titulo__principal{
+        font-size: 1.5rem;
+        display: flex;
+    }
+    .presentacion__perfil{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 2rem;
+    }
+    
+    .link__navegacion{
+        padding: 0rem 0.3rem;
+        font-size: 0.5rem;
+    }
+    .header__principal{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #001524;
+        padding: 0.5rem;
+    }
+    .foto__perfil{
+        background-size: auto;
+        height: 200px ;
+    }
+
+    .lista__presentacion{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .presentacion__principal{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-size: 0.5rem;
+        width: 200px;
+    }
+    .imagen__redes{
+        padding: 0.5rem 0.5rem;
+        width: 50px;
+    }
 }
