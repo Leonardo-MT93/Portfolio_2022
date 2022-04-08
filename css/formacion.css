@@ -33,3 +33,41 @@
     font-size: 1.5rem;
     text-align: center;
 }
+@media screen and (max-width:480px){
+    .items__personales{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+    .info__formacion{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        width: 250px;
+        height: 150px;
+        margin: 0.2rem 0.5rem;
+    }
+    .icono__personal-espaciado{
+        display: flex;
+        align-items: center; 
+        padding: 0rem 1rem;
+        width: 150px;
+        padding-bottom: 0.5rem;
+    }
+    .items__personal__formacion{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0.5rem;
+    }
+    .descripcion__formacion{
+        font-size: 1rem;
+        text-align: center;
+    }
+    .icono__personal__krause{
+        width: 100px;
+        height: 100px;
+        padding-bottom: 1rem;
+    }
+}
