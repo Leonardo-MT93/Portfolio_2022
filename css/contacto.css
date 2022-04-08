@@ -55,4 +55,14 @@
         background-image: none;
         width: 0px;
     }
+    .info__footer{
+        padding: 1rem 1rem;
+    }
+    .input__texto{
+        padding: 0.55rem;
+    }
+    .footer__proyecto{
+        font-size: 1rem;
+        text-align: center;
+    }
 }

@@ -100,7 +100,8 @@
     }
     .foto__perfil{
         background-size: auto;
-        height: 200px ;
+        height: 200px;
+        padding-top: 1rem;
     }
 
     .lista__presentacion{
@@ -118,5 +119,8 @@
     .imagen__redes{
         padding: 0.5rem 0.5rem;
         width: 50px;
+    }
+    .links{
+        padding: 0.5rem;
     }
 }
