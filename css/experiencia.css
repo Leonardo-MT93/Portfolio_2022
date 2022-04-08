@@ -35,3 +35,35 @@
     padding: 1rem;
     height: 400px;
 }
+@media screen and (max-width:480px){
+    .lista__experiencias{
+        flex-direction: column;
+        padding: 1rem ;
+        margin-left: 0rem;
+    }
+    .lista__experiencias:nth-child(2){
+        flex-direction: column-reverse;
+    }
+    .datos__experiencias{
+        width: 250px;
+    }
+    .titulo__terciario{
+        font-size: 1rem;
+        font-style: italic;
+        text-align: center;
+        padding-bottom: 0.6rem;
+    }
+    .imagen__experiencias{
+        padding: 0;
+        padding-bottom: 1rem;
+        height: 160px;
+    }
+    .descripcion__experiencia{
+        padding-top: 0rem;
+        font-size: 0rem;
+        visibility: hidden;
+    }
+    .botones__experiencias{
+        justify-content: space-around;
+    }
+}

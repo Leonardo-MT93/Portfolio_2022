@@ -13,7 +13,6 @@
     flex-direction: column; 
 }
 .imagen__contacto{
-    width: 100px;
     width: 300px;
 }
 .descripcion__formacion__contacto{
@@ -50,4 +49,10 @@
     font-size: 1.5rem;
     color: #ffbf00;
     padding: 1rem;
+}
+@media screen and (max-width:480px){
+    .imagen__contacto{
+        background-image: none;
+        width: 0px;
+    }
 }
