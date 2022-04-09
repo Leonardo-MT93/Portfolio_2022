@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="css/experiencia.css">
     <link rel="stylesheet" href="css/contacto.css">
 </head>
-<body class="app">
+<body class="app" id="Principal">
    <header class="header">
     <div class="nombre__principal">
         <img src="img/lion.png" alt="logo leon" class="logo__leon">
@@ -26,9 +26,10 @@
     <nav class="navegacion">
         <ul class="items__links">
             <li class="links">
+                <a class="link__navegacion" href="#Principal">Home</a>
                 <a class="link__navegacion" href="#A_cerca_de_mi">Sobre Mi</a>
-                <a class="link__navegacion" href="#Hobbies">Hobbies</a>
-                <a class="link__navegacion" href="#Soft_skills">Soft Skills</a>
+                <a class="link__navegacion" href="#Soft_skills">Skills</a>
+                <a class="link__navegacion" href="#Hobbies">Hobbies</a>                
                 <a class="link__navegacion" href="#Formacion">Formacion</a>
                 <a class="link__navegacion" href="#Experiencias">Experiencia</a>
                 <a class="link__navegacion" href="#Contacto">Contacto</a>
@@ -41,10 +42,10 @@
             <div class="presentacion__perfil">
                 <p class="presentacion__principal">Hola! Soy Leonardo Tolaba, tengo 28 años y vivo en Buenos Aires. Actualmente me especializo como FrontEnd Developer.</p>
                 <ul class="lista__presentacion">
-                <li><img src="img/contacto/github.png" alt="" class="imagen__redes"></li>
-                <li><img src="img/contacto/linkedin.png" alt="" class="imagen__redes"></li>
-                <li><img src="img/contacto/instagram.png" alt="" class="imagen__redes"></li>
-                <li><img src="img/contacto/cv2.png" alt="" class="imagen__redes"></li>
+                <li><a href="https://github.com/Leonardo-MT93"><img src="img/contacto/github.png" alt="" class="imagen__redes"></a></li>
+                <li><a href="https://www.linkedin.com/in/leonardo-manuel-tolaba/"><img src="img/contacto/linkedin.png" alt="" class="imagen__redes"></a></li>
+                <li><a href="https://www.instagram.com/leo.m.2021/?hl=es"><img src="img/contacto/instagram.png" alt="" class="imagen__redes"></a></li>
+                <li><a href="https://i.imgflip.com/59ba1z.jpg"><img src="img/contacto/cv2.png" alt="" class="imagen__redes"></a></li>
 
                 </ul>
             </div>
@@ -53,37 +54,37 @@
 
    <main class="content">
         <section id="A_cerca_de_mi">
-           <h2 class="titulo__secundario" >A cerca de mí</h2>
+           <h2 class="titulo__secundario" >Sobre mi</h2>
            <div class="alineamiento">
                 <div class="info__personal">
                     <img src="img/computadoras.jpg" alt="foto de perfil principal"    class="imagen__perfil">
                     <div class="presentacion">
                     <p class="parrafo__presentacion">
-                     Hola gracias por visitar mi portfolio soy Leonardo y es un gusto poder mostrarte lo que es mi mundo. Soy estudiante de la carrera de Progración actualmente en la UTN.
-                     Me gustaria poder tener mi primera experiencia como desarrollador FrontEnd y poder capacitarme cada día más. Soy una persona proactiva y me encanta aprender. 
+                     Hola gracias por visitar mi portafolio soy Leonardo y es un gusto poder mostrarte lo que es mi mundo. Soy estudiante de la Tecnicatura en Programación en la UTN y a su vez me encuentro realizando el curso brindado por Oracle One para convertirme en desarrollador FrontEnd. 
+                     Me gustaria poder tener mi primera experiencia como desarrollador y poder capacitarme cada día más. Soy una persona proactiva y me encanta aprender. 
                     </p>
                     <img src="img/firma.png" alt="Firma" class="firma__presentacion">
                     </div>
                 </div>
            </div>
         </section>
-        <section id="Hobbies">
-            <h2 class="titulo__secundario">Habilidades</h2>
+        <section id="Soft_skills">
+            <h2 class="titulo__secundario">Skills</h2>
                 <ul class="lista__personal">
                     <li class="items__personal">
                         <a class="titulo__personal" href="#">HTML5</a>
                         <img class="icono__personal" src="img/lenguajes/icons8-html-5-250.png" alt="">
-                        <button class="boton__web">Ver título</button>
+                        <a href="https://app.aluracursos.com/user/leonardotolaba-20/course/html5-css3-primera-pagina-web/formalCertificate"><button class="boton__web">Ver título</button></a>
                     </li> 
                     <li class="items__personal">
                         <a class="titulo__personal" href="#">CSS3</a>
                         <img class="icono__personal" src="img/lenguajes/icons8-css3-250.png" alt="">
-                        <button class="boton__web">Ver título</button>
+                        <a href="https://app.aluracursos.com/user/leonardotolaba-20/course/html5-css3-avanzando-css/formalCertificate"><button class="boton__web">Ver título</button></a>
                     </li>    
                     <li class="items__personal">
                         <a class="titulo__personal" href="#">Javascript</a>
                         <img class="icono__personal" src="img/lenguajes/icons8-logotipo-de-javascript-250.png" alt="">
-                        <button class="boton__web">Ver título</button>
+                        <a href="https://app.aluracursos.com/degree/certificate/0612b469-b3d2-46e9-b123-27afec160263"><button class="boton__web">Ver título</button></a>
                     </li>    
                     <li class="items__personal">
                         <a class="titulo__personal" href="#">React.js</a>
@@ -97,8 +98,8 @@
                     </li>          
                 </ul>
         </section>
-        <section id="Soft_skills">
-            <h2 class="titulo__secundario">Pasatiempos</h2>
+        <section id="Hobbies">
+            <h2 class="titulo__secundario">Hobbies</h2>
                 <ul class="lista__personal">
                     <li class="items__personal">
                         <a class="titulo__personal" href="#">Bailar</a>
@@ -168,8 +169,8 @@
                         <h3 class="titulo__terciario">Decodificador de Texto</h3> 
                         <p class="descripcion__experiencia">Challengue Alura LATAM</p>
                         <ul class="botones__experiencias">
-                            <button class="boton__web">Ver Demo</button>
-                            <button class="boton__web">Ir a Github</button>
+                            <a href="https://leonardo-mt93.github.io/Challengue-01---Encriptador-/"><button class="boton__web">Ver Demo</button></a>
+                            <a href="https://github.com/Leonardo-MT93/Challengue-01---Encriptador-"><button class="boton__web" >Ir a Github</button></a>       
                         </ul>
                     </div>
                 </div>
@@ -178,8 +179,8 @@
                         <h3 class="titulo__terciario">Juego del Ahorcado creado con HTML, CSS Y Javascript</h3>
                         <p class="descripcion__experiencia">Challengue Oracle ONE</p>
                         <ul class="botones__experiencias">
-                            <button class="boton__web">Ver Demo</button>
-                            <button class="boton__web">Ir a Github</button>
+                            <a href="https://leonardo-mt93.github.io/Challengue-02-Juego-del-Ahorcado/"><button class="boton__web">Ver Demo</button></a>
+                            <a href="https://github.com/Leonardo-MT93/Challengue-02-Juego-del-Ahorcado"><button class="boton__web" >Ir a Github</button></a>       
                         </ul>
                     </div>
                     <img src="img/PROYECTOS/ahorcado.jpg" alt="imagen" class="imagen__experiencias">
@@ -190,8 +191,8 @@
                         <h3 class="titulo__terciario">Barberia Alura</h3> 
                         <p class="descripcion__experiencia">Prácticas Alura LATAM</p>
                         <ul class="botones__experiencias">
-                            <button class="boton__web">Ver Demo</button>
-                            <button class="boton__web">Ir a Github</button>
+                            <a href="https://leonardo-mt93.github.io/Barberia---Alura/"><button class="boton__web">Ver Demo</button></a>
+                            <a href="https://github.com/Leonardo-MT93/Barberia---Alura"><button class="boton__web" >Ir a Github</button></a>       
                         </ul>
                     </div>
             </div>    

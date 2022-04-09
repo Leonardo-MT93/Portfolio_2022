@@ -2,7 +2,15 @@
     display: flex;
     justify-content: space-between;
     font-size: 2rem;
-    margin: 1rem 2.5rem;
+    margin: 1rem 0rem;
+    position: fixed;
+    background-color: black;
+    width: auto;
+    left: 0.6rem;
+    right: 0.6rem;
+    border-radius: 2rem;
+    border: 2px solid #0fa3b1;
+    padding: 0.7rem 1.3rem;
 }
 .header__principal{
     display: flex;
@@ -33,47 +41,56 @@
     width: 100px;
 }
 .imagen__redes:hover{
-    width: 120px;
+    transform: scale(1.15);
 }
-.titulo__principal{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: #D4AF37; 
-}
+
 .links{
     display: flex;
     justify-content: space-evenly;
 }
 .link__navegacion{
-    padding: 1rem;
+    padding-left: 2rem;
     color: #D4AF37;
+}
+.link__navegacion:hover{
+    transform: scale(1.2);
+    color: #979dac;
 }
 .nombre__principal{
     display: flex;
     justify-content: flex-start;
-    width: 400px;
 }
 .logo__leon{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 45px;
-    height: 45px;
-    padding: 1rem;
+    width: 32px;
+    height: 32px;
+}
+.titulo__principal{
+    padding-left: 0.5rem;
+    color: #D4AF37; 
 }
 @media screen and (max-width:480px){
     .header{
         margin: 0;
-        display: flex;
-        flex-direction: column;
         justify-content: center;
         font-size: 1rem;
+        padding: 0rem;
+        height: 35px;
+        border-radius: 0;
+        border: 0px;
+        left: 0rem;
+        right: 0rem;
+    }
+    .navegacion{
+        width: 0px;
+        visibility: hidden;
     }
     .nombre__principal{
         display: flex;
         justify-content: center;
-        width: 100%;
+        align-items: center;
         background: black;
     }
     .logo__leon{
@@ -87,48 +104,38 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding-top: 2rem;
+        padding-top: 0rem;
     }
-    
     .link__navegacion{
         padding: 0rem 0.3rem;
         font-size: 0.5rem;
     }
     .header__principal{
         display: flex;
-        flex-direction: column;
         align-items: center;
         background: #001524;
-        padding: 0.5rem;
+        padding: 2.5rem 0.5rem 1.5rem 0.5rem;
     }
     .foto__perfil{
         background-size: auto;
         height: 200px;
-        padding-top: 1rem;
     }
 
     .lista__presentacion{
         display: flex;
+        flex-direction: column;
         justify-content: space-evenly;
         padding-top: 1rem;
     }
     .presentacion__principal{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        font-size: 0.5rem;
-        width: 200px;
+        font-size: 0px;
+        width: 0px;
+        visibility: hidden;
+
     }
     .imagen__redes{
         padding: 0.5rem 0.5rem;
-        width: 50px;
-    }
-    .imagen__redes:hover{
-        width: 50px;
-    }
-    .imagen__redes:active{
-        width: 60px;
+        width: 35px;
     }
     .links{
         padding: 0.5rem;
