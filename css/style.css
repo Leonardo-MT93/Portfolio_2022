@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 .app{
     color: #ffbf00;
     background: #0c0f0a;

@@ -15,6 +15,14 @@
     border-radius: 1rem;
     border: 5px solid #d3d3d3;
 }
+.items__personal:hover{
+    border: 9px solid #deb841;
+    padding: 1.7rem 1.2rem;
+}
+.items__personal:active{
+    border-color: #ffe66d;
+}
+
 .titulo__personal{
     font-size: 1.5rem;
     padding-bottom: 0.5rem;

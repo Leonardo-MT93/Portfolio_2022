@@ -30,17 +30,25 @@
     justify-content: center;
     width: 100%;
 }
-.enviar__mensaje{
+  .enviar__mensaje {
     margin: 1rem;
     width: 40%;
     padding: 15px 0px;
     font-size: 1rem;
     font-weight: bold;
-    color: white;
-    background-color: #ffbf00;
     border: none;
     border-radius: 5px;
-}
+    background-color: #f7dba7;
+    color: #1b263b;
+    -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  }
+  .enviar__mensaje:hover {
+    box-shadow: 0 0 40px 40px #f1c40f inset;
+  }
+  .enviar__mensaje:active {
+    box-shadow: 0 0 40px 40px #de9e36 inset;
+  }
 
 .footer__proyecto{
     display: flex;

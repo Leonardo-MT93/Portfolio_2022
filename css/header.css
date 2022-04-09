@@ -32,6 +32,9 @@
     padding: 3rem 1rem;
     width: 100px;
 }
+.imagen__redes:hover{
+    width: 120px;
+}
 .titulo__principal{
     display: flex;
     flex-direction: column;
@@ -107,6 +110,7 @@
     .lista__presentacion{
         display: flex;
         justify-content: space-evenly;
+        padding-top: 1rem;
     }
     .presentacion__principal{
         display: flex;
@@ -120,7 +124,14 @@
         padding: 0.5rem 0.5rem;
         width: 50px;
     }
+    .imagen__redes:hover{
+        width: 50px;
+    }
+    .imagen__redes:active{
+        width: 60px;
+    }
     .links{
         padding: 0.5rem;
     }
+    
 }
