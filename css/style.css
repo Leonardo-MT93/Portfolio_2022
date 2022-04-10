@@ -4,7 +4,7 @@ html{
 .app{
     color: #ffbf00;
     background: #0c0f0a;
-    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Slabo 13px', serif;
 }
 .content{
     background: #1b263b;
@@ -18,8 +18,10 @@ html{
 }
 @media screen and (max-width:480px){
     .titulo__secundario{
-        font-size: 1.5rem;
-        padding: 1rem 0rem;
+        text-align: center;
+        font-size: 2.5rem;
+        padding: 3.3rem 0rem 2.5rem 0rem;
         background-color: #0d1b2a;
+        border-radius: 0rem 0rem 1rem 1rem;
     }
 }

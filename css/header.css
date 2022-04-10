@@ -88,7 +88,7 @@
         width: auto;
         left: 0rem;
         right: 0rem;
-        height: 100px;
+        height: 50px;
         border-radius: 0rem 0rem 1rem 1rem;
     }
     .items__links{
@@ -99,7 +99,7 @@
         background-color: #0b090a;
         border-radius: 2rem;
         border: 2px solid #ffd60a;
-        padding: 0.3rem;
+        padding: 0.4rem 0rem 0.1rem 0rem;
         display: flex;
         visibility: visible;
         justify-content: space-evenly;
@@ -107,23 +107,23 @@
     .imagen__header__mobile{
         filter: invert(100%);
         width: 25px;
-        padding: 0rem 0.05rem;
+        padding: 0rem 0.1rem 0.2rem 0rem;
     }
     .nombre__principal{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background: black;
-        height: 35px;
-        font-size: 1rem;
-        padding: 0.2rem 0rem;
+        display: none;
+        visibility: hidden;
     }
     .logo__leon{
-        padding: 1rem 0.5rem 1rem 0rem;
-    }
-    .titulo__principal{
-        font-size: 1.5rem;
         display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 32px;
+        height: 32px;
+    }
+    .logo__leon{
+        display: inline;   
+        padding-right: 2rem;
+        height: 30px;
     }
     .presentacion__perfil{
         display: flex;
@@ -139,7 +139,7 @@
         display: flex;
         align-items: center;
         background: #001524;
-        padding: 5.8rem 0.5rem 1.5rem 0.5rem;
+        padding: 3.8rem 0.5rem 1.5rem 0.5rem;
     }
     .foto__perfil{
         background-size: auto;
