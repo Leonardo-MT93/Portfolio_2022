@@ -82,14 +82,14 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding: 0.1rem 0rem 0rem 0rem;
+        padding: 0.1rem 0.2rem 0rem 0.2rem;
         border-radius: 0;
         border: 0px;
         width: auto;
         left: 0rem;
         right: 0rem;
         height: 50px;
-        border-radius: 0rem 0rem 2.5rem 2.5rem;
+        border-radius: 0rem 0rem 3rem 3rem;
     }
     .items__links{
         display: none;
@@ -114,15 +114,9 @@
         visibility: hidden;
     }
     .logo__leon{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 32px;
-        height: 32px;
-    }
-    .logo__leon{
         display: inline;   
         padding-right: 2rem;
+        padding-left: 0.2rem;
         height: 30px;
     }
     .presentacion__perfil{
