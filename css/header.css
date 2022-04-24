@@ -75,6 +75,7 @@
     padding-left: 0.5rem;
     color: #D4AF37; 
 }
+
 @media screen and (max-width:480px){
     .header{
         justify-content: center;
