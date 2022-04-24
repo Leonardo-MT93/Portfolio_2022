@@ -73,12 +73,13 @@
 }
 @media only screen and (max-width: 1370px){
     .icono__personal__krause{
-      width: 150px;
-      height: 140px;  
+      width: 120px;
+      height: 110px;  
+      padding-bottom: 0.5rem;
     }
     .info__formacion{
-        width: 13.5rem;
-        height: 13.5rem;
+        width: 12.7rem;
+        height: 12.7rem;
     }
     .icono__personal-espaciado{
         width: 8rem;

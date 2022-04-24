@@ -86,7 +86,7 @@
         font-size: 1.2rem;
     }
     .enviar__mensaje {
-        margin: 0.6rem;
+        margin: 0.55rem;
         width: 40%;
         padding: 8px 0px;
         font-size: 1rem;
@@ -97,7 +97,7 @@
         display: flex;
         justify-content: center;
         background-color: #0c0f0a;
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         color: #ffbf00;
         padding: 0.9rem;
     }
