@@ -40,7 +40,7 @@
 }
 .no__boton{
     padding: 1.5rem 0rem;
-    font-size: 2rem;
+    font-size: 1rem;
 }
 @media screen and (max-width:480px){
     .lista__personal{
@@ -89,5 +89,25 @@
     }
     .items__personal:active{
         border-color: #d3d3d3;
+    }
+}
+@media only screen and (max-width: 1370px){
+    .lista__personal{
+        padding: 5rem 0rem;
+    }
+    .icono__personal{
+        width: 165px;
+        height: 165px;
+    }
+    .boton__web{
+        padding: 10px 0px;
+        font-size: 1rem;
+        font-weight: bold;
+        color: #22223b;
+        background-color: #fcbf49;
+    }
+    .items__personal:hover{
+        transform: scale(1.06);
+        border: 9px solid #deb841;
     }
 }

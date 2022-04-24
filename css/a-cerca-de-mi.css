@@ -54,3 +54,16 @@
     }
 
 }
+@media only screen and (max-width: 1370px){
+    .info__personal{
+        padding: 2.5rem 0rem;
+    }
+    .imagen__perfil{
+        width: 500px;
+        height: 300px;
+    }
+    .firma__presentacion{
+        width: 15rem;
+        height: 13rem;
+    }
+}

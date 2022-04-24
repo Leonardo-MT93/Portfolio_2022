@@ -25,3 +25,12 @@ html{
         border-radius: 0rem 0rem 1rem 1rem;
     }
 }
+@media only screen and (max-width: 1370px) {
+    .titulo__secundario{
+        display: flex;
+        justify-content: center;
+        font-size: 7rem;
+        padding: 5rem 0rem 4rem 0rem;
+        background-color: #0d1b2a;
+    }
+}

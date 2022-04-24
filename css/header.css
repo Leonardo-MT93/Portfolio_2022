@@ -82,7 +82,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding: 0.1rem 0.2rem 0rem 0.2rem;
+        padding: 0.1rem 0.35rem 0rem 0.35rem;
         border-radius: 0;
         border: 0px;
         width: auto;
@@ -159,6 +159,28 @@
     .links{
         padding: 0.5rem;
     }
-
-    
+}
+@media only screen and (max-width: 1370px) {
+    .header{
+        margin: 0.5rem 0rem;
+        font-size: 1.5rem;
+        border: 3px solid #0fa3b1;
+        padding: 0.8rem 1.3rem;
+    }
+    .foto__perfil{
+        background-size: auto;
+        height: 450px ;
+    }
+    .header__principal{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background: #001524;
+        padding: 10.5rem 0rem 9.5rem 0rem;
+    }
+    .titulo__principal{
+        padding-left: 0.5rem;
+        color: #D4AF37; 
+        margin-top: 0.1rem;
+    }
 }

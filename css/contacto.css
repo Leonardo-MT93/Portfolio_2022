@@ -74,3 +74,31 @@
         text-align: center;
     }
 }
+@media only screen and (max-width: 1370px){
+    .input__texto{
+        padding: 0.3rem;
+    }
+    .texto__formulario{
+        font-size: 1rem;
+        padding: 0.5rem 0;
+    }
+    .descripcion__formacion__contacto{
+        font-size: 1.2rem;
+    }
+    .enviar__mensaje {
+        margin: 0.6rem;
+        width: 40%;
+        padding: 8px 0px;
+        font-size: 1rem;
+        font-weight: bold;
+
+      }
+      .footer__proyecto{
+        display: flex;
+        justify-content: center;
+        background-color: #0c0f0a;
+        font-size: 1.2rem;
+        color: #ffbf00;
+        padding: 0.9rem;
+    }
+}

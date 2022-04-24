@@ -71,3 +71,21 @@
         padding-bottom: 1rem;
     }
 }
+@media only screen and (max-width: 1370px){
+    .icono__personal__krause{
+      width: 150px;
+      height: 140px;  
+    }
+    .info__formacion{
+        width: 13.5rem;
+        height: 13.5rem;
+    }
+    .icono__personal-espaciado{
+        width: 8rem;
+        height: 6rem;
+    }
+    .descripcion__formacion{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+}
