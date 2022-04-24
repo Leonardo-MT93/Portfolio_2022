@@ -25,7 +25,7 @@ html{
         border-radius: 0rem 0rem 1rem 1rem;
     }
 }
-@media only screen and (max-width: 1370px) {
+@media only screen and (max-width: 1370px) and (min-width: 1200px){
     .titulo__secundario{
         display: flex;
         justify-content: center;

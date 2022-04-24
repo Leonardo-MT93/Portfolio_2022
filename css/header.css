@@ -160,7 +160,7 @@
         padding: 0.5rem;
     }
 }
-@media only screen and (max-width: 1370px) {
+@media only screen and (max-width: 1370px) and (min-width: 1200px){
     .header{
         margin: 0.5rem 0rem;
         font-size: 1.5rem;

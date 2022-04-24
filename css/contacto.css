@@ -58,6 +58,10 @@
     color: #ffbf00;
     padding: 1rem;
 }
+.footer__responsive{
+    visibility: hidden;
+    display: none;
+}
 @media screen and (max-width:480px){
     .imagen__contacto{
         background-image: none;
@@ -73,8 +77,34 @@
         font-size: 1rem;
         text-align: center;
     }
+    .footer__proyecto{
+        visibility: hidden;
+        display: none;
+    }
+    .enviar__mensaje {
+        margin: 1rem 0rem 0rem 0rem;
+        width: 40%;
+        padding: 15px 0px;
+        font-size: 1rem;
+        font-weight: bold;
+        border: none;
+        border-radius: 5px;
+        background-color: #f7dba7;
+        color: #1b263b;
+        -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+        transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+      }
+    .footer__responsive{
+        visibility: visible;
+        display: flex;
+        justify-content: center;
+        background-color: #0c0f0a;
+        font-size: 1.2rem;
+        color: #ffbf00;
+        padding: 0.6rem;
+    }
 }
-@media only screen and (max-width: 1370px){
+@media only screen and (max-width: 1370px) and (min-width: 1200px){
     .input__texto{
         padding: 0.3rem;
     }

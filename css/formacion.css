@@ -71,7 +71,7 @@
         padding-bottom: 1rem;
     }
 }
-@media only screen and (max-width: 1370px){
+@media only screen and (max-width: 1370px) and (min-width: 1200px){
     .icono__personal__krause{
       width: 120px;
       height: 110px;  

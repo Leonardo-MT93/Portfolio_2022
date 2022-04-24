@@ -67,6 +67,6 @@
         justify-content: space-around;
     }
 }
-@media only screen and (max-width: 1370px){
-    
+@media only screen and (max-width: 1370px) and (min-width: 1200px){
+
 }
