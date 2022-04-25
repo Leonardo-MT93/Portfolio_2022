@@ -93,6 +93,8 @@ html{
         justify-content: center;
         font-size: 4rem;
         padding: 6rem 0rem 5rem 0rem;
-
+    }
+    .titulo__secundario__contacto{
+        padding: 5rem 0rem 2.5rem 0rem;
     }
 }
