@@ -4,20 +4,26 @@
     font-size: 2rem;
     margin: 1rem 0rem;
     position: fixed;
-    background-color: black;
     width: auto;
     left: 0.6rem;
     right: 0.6rem;
     border-radius: 2rem;
     border: 2px solid #0fa3b1;
     padding: 0.7rem 1.3rem;
+    background-color: #001219;
 }
 .header__principal{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background: #001524;
     padding: 9.2rem 0rem;
+    background-image: linear-gradient(
+    0deg,
+    hsl(219deg 37% 17%) 0%,
+    hsl(217deg 44% 13%) 39%,
+    hsl(214deg 52% 11%) 61%,
+    hsl(214deg 52% 11%) 100%
+    );
 }
 .foto__perfil{
     background-size: auto;
@@ -116,7 +122,7 @@
     }
     .logo__leon{
         display: inline;   
-        padding-right: 2rem;
+        padding-right: 1.6rem;
         padding-left: 0.2rem;
         height: 30px;
     }
@@ -133,7 +139,14 @@
     .header__principal{
         display: flex;
         align-items: center;
-        background: #001524;
+        background-image: linear-gradient(
+        0deg,
+        hsl(219deg 37% 17%) 0%,
+        hsl(217deg 44% 13%) 39%,
+        hsl(214deg 52% 11%) 61%,
+        hsl(214deg 52% 11%) 100%
+        );
+        
         padding: 3.8rem 0.5rem 1.5rem 0.5rem;
     }
     .foto__perfil{

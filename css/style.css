@@ -5,6 +5,7 @@ html{
     color: #ffbf00;
     background: #0c0f0a;
     font-family: 'Slabo 13px', serif;
+
 }
 .content{
     background: #1b263b;
@@ -14,7 +15,15 @@ html{
     justify-content: center;
     font-size: 7rem;
     padding: 6rem 0;
-    background-color: #0d1b2a;
+      background-image: linear-gradient(
+        0deg,
+        hsl(219deg 37% 17%) 0%,
+        hsl(207deg 81% 25%) 20%,
+        hsl(180deg 80% 35%) 40%,
+        hsl(180deg 80% 35%) 60%,
+        hsl(207deg 81% 25%) 80%,
+        hsl(219deg 37% 17%) 100%
+      );
 }
 @media screen and (max-width:480px){
     .titulo__secundario{
@@ -30,7 +39,7 @@ html{
         display: flex;
         justify-content: center;
         font-size: 4rem;
-        padding: 4.6rem 0rem 2rem 0rem;
+        padding: 6rem 0rem 3.5rem 0rem;
         background-color: #0d1b2a;
     }
 }

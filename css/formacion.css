@@ -19,19 +19,25 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
-    width: 300px;
-    height: 300px;
+    width: 500px;
+    height: 270px;
 }
 .icono__personal-espaciado{
     display: flex;
     align-items: center; 
     padding: 0rem 1rem;
-    width: 250px;
+    width: 200px;
+    height: 150px;
     padding-bottom: 1.5rem;
 }
 .descripcion__formacion{
     font-size: 1.5rem;
     text-align: center;
+}
+.icono__personal__krause{
+    width: 165px;
+    height: 165px;
+    padding-bottom: 1rem;
 }
 @media screen and (max-width:480px){
     .items__personales{
@@ -73,17 +79,17 @@
 }
 @media only screen and (max-width: 1370px) and (min-width: 1200px){
     .icono__personal__krause{
-      width: 120px;
-      height: 110px;  
-      padding-bottom: 0.5rem;
+      width: 8rem;
+      height: 8rem;  
+      padding-bottom: 1.5rem;
     }
     .info__formacion{
-        width: 12.7rem;
-        height: 12.7rem;
+        width: 17rem;
+        height: 14rem;
     }
     .icono__personal-espaciado{
-        width: 8rem;
-        height: 6rem;
+        width: 10rem;
+        height: 8rem;
     }
     .descripcion__formacion{
         font-size: 1.2rem;

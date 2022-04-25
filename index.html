@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PortFolio - Leonardo Tolaba</title>
+    <link rel="shortcut icon" href="#">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Slabo+13px&display=swap" rel="stylesheet">
@@ -209,30 +210,49 @@
             </div>    
             </ul>
         </section>
-   </main> 
-   <footer class="footer">
-    <section id="Contacto">
-        <h2 class="titulo__secundario">CONTACTO</h2>
-        <div class="info__footer">
-            <img src="img/correo.png" alt="imagen_contacto" class="imagen__contacto">
-            <ul class="lista__datos">
-                <p class="descripcion__formacion__contacto">¿Desea contactarme?<br>Complete el siguiente formulario y me contactaré con usted a la brevedad</p>
-                <label class="texto__formulario" for="nombreapellido">Nombre y Apellido</label>
-                <input class="input__texto" type="text" name="name" id="nombreapellido" required placeholder="Indique su Nombre y Apellido">
-                <label class="texto__formulario" for="correoelectronico">Email</label>
-                <input class="input__texto" type="text" name="name" id="correoelectronico" required placeholder="Indique su mail: "dominio@gmail.com"">
-                <label class="texto__formulario" for="asunto">Asunto</label>
-                <input class="input__texto" type="text" name="name" id="asunto" required placeholder="Indique el asunto">
-                <label class="texto__formulario" for="mensaje">Mensaje</label>
-                <textarea class="input__texto input__texto_mensaje" name="mensaje" id="asunto" cols="30" rows="7" placeholder="Indique su consulta" ></textarea>
-                <div class="posicion__boton">
-                    <button class="enviar__mensaje">Enviar</button>
-                </div>
-            </ul>       
-        </div>
-        <p class="footer__proyecto">Copyright &#169; 2022 - Diseño Web realizado por Leonardo Manuel Tolaba</p>
+        <section id="Contacto">
+            <h2 class="titulo__secundario">CONTACTO</h2>
+            <form action="#">
+                <div class="info__contacto">
+                    <img src="img/correo.png" alt="imagen_contacto" class="imagen__contacto">
+                    <ul class="lista__datos">
+                    <fieldset class="lista__datos">
+                        <legend class="descripcion__formacion__contacto">Deje su consulta y me contactaré con usted a la brevedad</legend>
+                            <div class="texto__formulario">
+                                <label class="texto__formulario" for="name">Nombre y Apellido:</label>
+                                <input name="name" id="nombre" class="input__texto" type="text" placeholder="Indique su Nombre y Apellido" required data-tipo="nombre">
+                                <span class="input-message-error">Este campo no es valido</span>
+                            </div>        
+                            <div class="texto__formulario">
+                                <label class="texto__formulario" for="email">Email:</label>
+                                <input name="mail" id="email" class="input__texto" type="email" placeholder="Indique su mail:dominio@gmail.com" required data-tipo="email">           
+                                <span class="input-message-error">Este campo no es valido</span>
+                            </div>    
+                            <div class="texto__formulario">               
+                                <label class="texto__formulario" for="asunto">Asunto:</label>
+                                <input name="asunto" id="asunto" class="input__texto" type="text" placeholder="Indique el asunto" required data-tipo="asunto">
+                                <span class="input-message-error">Este campo no es valido</span>
+                            </div>    
+                            <div class="texto__formulario">
+                                <label class="texto__formulario" for="mensaje">Mensaje:</label>
+                                <textarea class="input__texto input__texto_mensaje" name="mensaje" id="mensaje" cols="30" rows="6" placeholder="Indique su consulta" required data-tipo="mensaje"></textarea>
+                                <span class="input-message-error">Este campo no es valido</span>
+                            </div>   
+                            <div class="posicion__boton">
+                                <button type="submit" class="enviar__mensaje">Enviar</button>
+                            </div>     
+                    </fieldset>
+                    </ul>
+                </div>           
+
+            </form>   
+            
+        </section>
+    </main>
+    <footer class="footer">
+    <p class="footer__proyecto">Copyright &#169; 2022 - Diseño Web realizado por Leonardo Manuel Tolaba</p>
         <p class="footer__responsive">Copyright &#169; 2022 - L.M.T.</p>
-    </section>
    </footer>
+   <script src="js/contacto.js"></script>
 </body>
 </html>
