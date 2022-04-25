@@ -18,10 +18,10 @@ html{
       background-image: linear-gradient(
         0deg,
         hsl(219deg 37% 17%) 0%,
-        hsl(207deg 81% 25%) 20%,
-        hsl(180deg 80% 35%) 40%,
-        hsl(180deg 80% 35%) 60%,
-        hsl(207deg 81% 25%) 80%,
+        hsl(217deg 75% 27%) 20%,
+        hsl(206deg 92% 33%) 40%,
+        hsl(206deg 92% 33%) 60%,
+        hsl(217deg 75% 27%) 80%,
         hsl(219deg 37% 17%) 100%
       );
 }
@@ -29,9 +29,62 @@ html{
     .titulo__secundario{
         text-align: center;
         font-size: 2.5rem;
-        padding: 3.3rem 0rem 2.5rem 0rem;
-        background-color: #0d1b2a;
-        border-radius: 0rem 0rem 1rem 1rem;
+        padding: 3.3rem 0rem 2.7rem 0rem;
+    }
+    .titulo__secundario__experiencia{
+        background-image: linear-gradient(
+            0deg,
+            hsl(219deg 37% 17%) 0%,
+            hsl(266deg 66% 23%) 20%,
+            hsl(272deg 68% 37%) 40%,
+            hsl(272deg 68% 37%) 60%,
+            hsl(266deg 66% 23%) 80%,
+            hsl(219deg 37% 17%) 100%
+          );
+    }
+    .titulo__secundario__skills{
+        background-image: linear-gradient(
+            0deg,
+            hsl(219deg 37% 17%) 0%,
+            hsl(20deg 68% 44%) 29%,
+            hsl(29deg 92% 50%) 43%,
+            hsl(29deg 92% 50%) 57%,
+            hsl(20deg 68% 44%) 71%,
+            hsl(219deg 37% 17%) 100%
+          );
+
+    }
+    .titulo__secundario__hobbies{
+        background-image: linear-gradient(
+            0deg,
+            hsl(219deg 37% 17%) 0%,
+            hsl(344deg 61% 27%) 20%,
+            hsl(348deg 59% 50%) 40%,
+            hsl(348deg 59% 50%) 60%,
+            hsl(344deg 61% 27%) 80%,
+            hsl(219deg 37% 17%) 100%
+          );
+    }.titulo__secundario__formacion{
+        background-image: linear-gradient(
+            0deg,
+            hsl(219deg 37% 17%) 0%,
+            hsl(150deg 65% 16%) 20%,
+            hsl(131deg 94% 21%) 40%,
+            hsl(131deg 94% 21%) 60%,
+            hsl(150deg 65% 16%) 80%,
+            hsl(219deg 37% 17%) 100%
+          );
+    }
+    .titulo__secundario__contacto{
+        background-image: linear-gradient(
+            0deg,
+            hsl(219deg 37% 17%) 0%,
+            hsl(193deg 60% 27%) 20%,
+            hsl(192deg 49% 41%) 40%,
+            hsl(192deg 49% 41%) 60%,
+            hsl(193deg 60% 27%) 80%,
+            hsl(219deg 37% 17%) 100%
+          );
     }
 }
 @media only screen and (max-width: 1370px) and (min-width: 1200px){
@@ -39,7 +92,7 @@ html{
         display: flex;
         justify-content: center;
         font-size: 4rem;
-        padding: 6rem 0rem 3.5rem 0rem;
-        background-color: #0d1b2a;
+        padding: 6rem 0rem 5rem 0rem;
+
     }
 }
