@@ -54,6 +54,12 @@
     }
 
 }
+@media only screen and (max-width: 1200px) and (min-width: 600px){
+    .imagen__perfil{
+        display: none;
+        visibility: hidden;
+    }
+}
 @media only screen and (max-width: 1370px) and (min-width: 1200px){
     .info__personal{
         padding: 2rem 0rem;

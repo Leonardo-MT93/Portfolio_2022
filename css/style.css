@@ -87,6 +87,15 @@ html{
           );
     }
 }
+@media only screen and (max-width: 1200px) and (min-width: 600px){
+    .titulo__secundario{
+        display: flex;
+        justify-content: center;
+        font-size: 3rem;
+        padding: 6rem 0;
+    }
+
+}
 @media only screen and (max-width: 1370px) and (min-width: 1200px){
     .titulo__secundario{
         display: flex;
