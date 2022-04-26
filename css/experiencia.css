@@ -67,27 +67,6 @@
         justify-content: space-around;
     }
 }
-@media only screen and (max-width: 1200px) and (min-width: 600px){
-    .imagen__experiencias{
-        display: flex;
-        justify-content: center;
-        width: auto;
-        padding: 1rem;
-        height: 15rem;
-    }
-    .lista__experiencias{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-top: 1rem;
-        margin-left: 2rem;
-        justify-content: space-evenly;
-    }
-    .lista__experiencias:nth-child(2){
-        flex-direction: column-reverse;
-    }
-}
-
 @media only screen and (max-width: 1370px) and (min-width: 1200px){
 
 }

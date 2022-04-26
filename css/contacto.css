@@ -13,8 +13,7 @@
     flex-direction: column; 
 }
 .imagen__contacto{
-    width: 400px;
-    margin-bottom: 10rem;
+    width: 300px;
 }
 .descripcion__formacion__contacto{
     font-size: 2rem;
@@ -33,7 +32,7 @@
     justify-content: center;
     width: 100%;
 }
-  .enviar__mensaje {
+.enviar__mensaje {
     margin: 1rem 0rem 2rem 0rem;  
     padding: 0.8rem 2rem;
     border: 2px solid #ffc300;
@@ -91,6 +90,7 @@
     .imagen__contacto{
         background-image: none;
         width: 0px;
+        margin-bottom: 0rem;
     }
     .info__contacto{
         flex-direction: column;
@@ -106,7 +106,7 @@
     .footer__proyecto{
         visibility: hidden;
         display: none;
-        }
+    }
     .enviar__mensaje {
         margin: 0.7rem 0rem 0.7em 0rem;  
         --green: #1BFD9C;
@@ -144,11 +144,6 @@
     .enviar__mensaje:hover:before {
         transform: translateX(15em);
     }
-
-    .imagen__contacto{
-        margin-bottom: 0rem;
-    }
-
       .descripcion__formacion__contacto{
         font-size: 1.4rem;
         margin: 0.5rem 0;
@@ -174,26 +169,6 @@
         margin-top: 0.2rem;
     }
 }
-@media only screen and (max-width: 1200px) and (min-width: 600px){
-    .imagen__contacto{
-        background-image: none;
-        width: 0px;
-    }
-    .footer__proyecto{
-        visibility: hidden;
-        display: none;
-    }
-    .footer__responsive{
-        visibility: visible;
-        display: flex;
-        justify-content: center;
-        background-color: #0c0f0a;
-        font-size: 1.2rem;
-        color: #ffbf00;
-        padding: 0.6rem;
-    }    
-}
-
 @media only screen and (max-width: 1370px) and (min-width: 1200px){
     .input__texto{
         padding: 0.3rem;
@@ -205,6 +180,14 @@
     .descripcion__formacion__contacto{
         font-size: 1.2rem;
     }
+    .enviar__mensaje {
+        margin: 0.55rem;
+        width: 40%;
+        padding: 8px 0px;
+        font-size: 1rem;
+        font-weight: bold;
+
+      }
       .footer__proyecto{
         display: flex;
         justify-content: center;
@@ -212,9 +195,5 @@
         font-size: 1.1rem;
         color: #ffbf00;
         padding: 0.9rem;
-    }
-    .imagen__contacto{
-        width: 300px;
-        margin-bottom: 6rem;
     }
 }
